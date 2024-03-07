@@ -1,4 +1,4 @@
-FROM golang:1.14
+FROM golang:bookworm
 LABEL maintainer "tomas@aparicio.me"
 
 ARG LIBVIPS_VERSION=8.9.2
